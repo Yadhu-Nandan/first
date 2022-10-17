@@ -23,3 +23,4 @@ Route::get('/message/update/{id}',[MessageController::class,'update']);
 Route::get('/message/edits/{id}',[MessageController::class,'edits']);
 Route::post('/message/edit/{id}',[MessageController::class,'edit']);
 Route::post('/message/edit/{id}',[MessageController::class,'edit']);
+Route::post('/message/edit/{id}',[MessageController::class,'edit']);
