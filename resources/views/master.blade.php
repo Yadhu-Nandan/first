@@ -11,5 +11,6 @@
     <h1>Messages</h1>
     @yield('content')
     <center><h5>Yadhu Nandan</h5></center>
+    <h1>Hellos</h1>
 </body>
 </html>
