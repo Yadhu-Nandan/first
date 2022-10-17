@@ -19,7 +19,7 @@ Route::get('/', [HomeController::class, 'index']);
 Route::post('/create',[MessageController::class,'create']);
 Route::get('/messages/{id}',[MessageController::class,'view']);
 Route::get('/message/{id}',[MessageControllerss::class,'view']);
-Route::get('/message/delete/{id}',[MessageController::class,'deletem']);
+Route::get('/message/delete/{id}',[MessageController::class,'deletem'])
 12345s
 Route::get('/message/update/{id}',[MessageController::class,'update']);
 Route::get('/message/edits/{id}',[MessageController::class,'edits']);
